@@ -1,0 +1,68 @@
+body{
+    font-family:monospace;
+    background-color: black;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.conteiner{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    padding: 20px;
+    background-color: greenyellow;
+    gap: 10px;
+}
+.head{
+    display: flex;
+
+}
+input{
+    border-radius: 10px 0px 0px 10px;
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+.text{
+    color: aliceblue;
+}
+button{
+    border-radius: 0px 10px 10px 0px;
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    max-width: 100px;
+    font-size: 1.5em;
+}
+html{
+    height: 100%;
+}
+.tasks{
+    border-radius: 10px;
+    background-color: rgb(91, 226, 91);
+    min-height: 550px;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task{
+    height: 2em;
+    background-color: aliceblue;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 2em;
+    justify-content: center;
+}
