@@ -33,16 +33,14 @@ input{
 .text{
     color: aliceblue;
 }
-button{
-    border-radius: 0px 10px 10px 0px;
-    height: 50px;
-    width: 100%;
-    background-color: aliceblue;
-    max-width: 100px;
-    font-size: 1.5em;
-}
 html{
     height: 100%;
+}
+.image{
+    background-color: aqua;
+    width: 1000px;
+    background-size: cover;
+    height: 1000px;
 }
 .tasks{
     border-radius: 10px;
@@ -58,11 +56,33 @@ html{
     background-color: aliceblue;
     margin-top: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     width: 90%;
     border-radius: 10px;
+    height: auto;
+    padding: 10px;
     align-items: center;
     font-size: 2em;
     justify-content: center;
+    height: 100%;
+    gap: 20px;
+}
+button{
+    background-color: transparent;
+    font-size: 1.3em;
+}
+.insert{
+    background-color: aliceblue;
+    width: auto;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+.text{
+    text-align: center;
+    color: black;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
 }
