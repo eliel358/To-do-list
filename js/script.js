@@ -92,7 +92,6 @@ function progress(task_name){
         text = text.slice(15)
     }
     document.getElementById(task_name).innerHTML = '-Em progresso-'+text
-
 }
 
 document.addEventListener('keypress',(event) => {
