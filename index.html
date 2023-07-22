@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     
-    <script defer src="./js/script.js"></script>
+    <script defer src="./js/script2.js"></script>
 </head>
 <body>
     <div class="conteiner">
         <div class="info"></div>
         <div class="head">
-            <input type="text" class="input"><button class="insert" onclick="create_task()">Inserir</button>
+            <input type="text" class="input" placeholder="Insira uma tarefa aqui"><button class="insert" onclick="create_task(document.querySelector('input').value)">Inserir</button>
         </div>
         <div class="tasks" id="tasks">
             
         </div>
     </div>
 </body>
-</html> 
+</html>
