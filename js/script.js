@@ -93,7 +93,6 @@ function progress(task_name){
     }
     document.getElementById(task_name).innerHTML = '-Em progresso-'+text
 }
-
 document.addEventListener('keypress',(event) => {
     
     if (event.code == 'Enter'){
