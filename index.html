@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    
-    <script defer src="./js/script.js"></script>
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
     <div class="conteiner">
-        <div class="info"></div>
-        <div class="head">
-            <input type="text" class="input" placeholder="Insira uma tarefa aqui"><button class="insert" onclick="create_task(document.querySelector('input').value)">Inserir</button>
+        <div class="conteiner-bar">
+            <input type="text" value="" placeholder="Escreva o nome da tarefa" id="input-task-name"><button class="insert-button" id="insert-button">inserir tarefa</button>
         </div>
-        <div class="tasks" id="tasks">
+        <div id="tasks-conteiner" class="tasks-conteiner">
             
         </div>
     </div>

@@ -1,88 +1,84 @@
-body{
-    font-family:monospace;
-    background-color: black;
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    
-}
-.conteiner{
-    border-radius: 10px;
-    width: 100%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    min-height: 600px;
-    padding: 20px;
-    background-color: greenyellow;
-    gap: 10px;
-}
-.head{
-    display: flex;
-
-}
-input{
-    border-radius: 10px 0px 0px 10px;
-    width: 100%;
-    max-width: 500px;
-    height: 50px;
-    text-align: center;
-    font-size: 2em;
-}
-.text{
-    color: aliceblue;
-}
 html{
     height: 100%;
+   
 }
-.image{
-    background-color: aqua;
-    width: 1000px;
-    background-size: cover;
-    height: 1000px;
-}
-.tasks{
-    border-radius: 10px;
-    background-color: rgb(91, 226, 91);
-    min-height: 550px;
-    gap: 2px;
+body{
+    font-family: monospace;
+    height: 100%;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
+    margin: 5em 0em;
+    padding: 1em;
+}
+.conteiner{
+    background-color: blue;
+    height: min-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 1em;
+    width: 80%;
+    border-radius: 20px;
+}
+.conteiner-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1em 0em ;
+}
+input{
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 2em;
+    height: 2em;
+    padding: 0em 1em 0em 1em;
+}
+.insert-button{
+    font-size: 2em;
+    width: fit-content;
+    height: 2em;
+    border-radius: 0px 20px 20px 0px;
+    padding: 0em 1em 0em 1em;
+    text-align: center;   
 }
 .task{
-    height: 2em;
-    background-color: aliceblue;
-    margin-top: 10px;
+    padding: 2em;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(39, 39, 241);
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    width: 90%;
-    border-radius: 10px;
-    height: auto;
-    padding: 10px;
     align-items: center;
-    font-size: 2em;
     justify-content: center;
-    height: 100%;
-    gap: 20px;
+    gap: 1em;
+    border: 5px solid black;
+    border-radius: 20px;
 }
 button{
-    background-color: transparent;
-    font-size: 1.3em;
+    width: fit-content;
+    height: fit-content;
+    padding: 1em 2em;
+    border-radius: 20px;
+    font-size: 2em;
 }
-.insert{
-    background-color: aliceblue;
-    width: auto;
-    padding: 10px;
-    border-radius: 0px 10px 10px 0px;
-}
-.text{
+p{
+    font-size: 2em;
+    color: white;
     text-align: center;
-    color: black;
 }
-.buttons{
+.tasks-conteiner{
+    height: 100%;
+    width: 100%;
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
 }
